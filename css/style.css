@@ -15,7 +15,7 @@ ul, li, ol{list-style: none;}
 
 header, footer{
   width: 100%;
-  background-color:rosybrown
+  background-color:rgb(255, 238, 238)
 }
 .h_inner{
   position: relative;
@@ -138,7 +138,37 @@ main{
   height: 300px;
 }
 
-.notice, .gallery, .banner{
+
+
+/* 공지사항 영역 */
+.notice{
+  width: 400px;
+  height: 200px;
+  margin:0px auto;
+  padding: 10px;
+  float: left;
+  box-sizing: border-box;
+}
+.notice > ul{border: 1px solid #ccc;}
+.notice > ul > li{}
+.notice > ul > li > a{
+  line-height: 22px;
+}
+.notice > ul > li > a > span{
+  float: right;
+}
+.notice > h3{
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-bottom: 1px solid #fff;
+  background-color: cornflowerblue;
+}
+
+
+
+.gallery, .banner{
   width: 400px;
   height: 200px;
   margin:0px auto;
